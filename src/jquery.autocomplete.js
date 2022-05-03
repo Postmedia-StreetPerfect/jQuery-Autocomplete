@@ -164,7 +164,8 @@
                 options = that.options,
                 container;
 
-            that.element.setAttribute('autocomplete', 'off');
+            // bmiller, changed 'off' to 'no' - pas per Chrome, seems fine on all others
+            that.element.setAttribute('autocomplete', 'no');
 
             // html() deals with many types: htmlString or Element or Array or jQuery
             that.noSuggestionsContainer = $('<div class="autocomplete-no-suggestion"></div>')
