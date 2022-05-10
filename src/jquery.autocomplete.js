@@ -164,7 +164,7 @@
                 options = that.options,
                 container;
 
-            // bmiller, changed 'off' to 'no' - pas per Chrome, seems fine on all others
+            // bmiller, changed 'off' to 'no' - as per Chrome, seems fine on all others
             that.element.setAttribute('autocomplete', 'no');
 
             // html() deals with many types: htmlString or Element or Array or jQuery
